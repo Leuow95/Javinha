@@ -4,14 +4,18 @@ public class Funcionario {
     String nome;
     String departamento;
     double salario;
-    String dataEntrada;
+    Data dataEntrada;
     String rg;
+
+
 
     void mostra(){
         System.out.println("Nome: "+ nome);
         System.out.println("Departamento: " + departamento);
         System.out.println("Salário: "+ salario);
-        System.out.println("Data de Entrada na empresa:" + dataEntrada);
+        System.out.print("Data de Entrada na empresa: " + dataEntrada.dia);
+        System.out.print("/" + dataEntrada.mes);
+        System.out.println("/" + dataEntrada.ano);
         System.out.println("Rg: " + rg);
     }
 
