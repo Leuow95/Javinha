@@ -5,7 +5,7 @@ public class Loops {
 //        de1A150();
 //        de1A1000();
 //        multiply3();
-    factorial(20);
+    factorial(5);
 
     }
 
@@ -28,10 +28,10 @@ public class Loops {
     }
 
     public static void factorial(int value){
-        long fatorial = value;
+        long resultado = value;
         for (; value > 1; value--){
-            fatorial *= value-1;
+            resultado *= value-1;
         }
-        System.out.println("fatorial:" + fatorial);
+        System.out.println("fatorial: " + resultado);
     }
 }
